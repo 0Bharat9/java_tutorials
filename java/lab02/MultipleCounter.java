@@ -4,7 +4,9 @@ public class MultipleCounter {
         if (lowerLimit > upperLimit) {
             return "Error: lower limit (" + lowerLimit + ") is not less than or equal to upper limit (" + upperLimit + ")";
         }
-
+        if(lowerLimit==0){
+          lowerLimit=1;
+        }
         int count3 = 0, count5 = 0, count7 = 0;
 
         // Loop from lowerLimit to upperLimit (inclusive)

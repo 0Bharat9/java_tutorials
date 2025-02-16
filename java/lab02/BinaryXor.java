@@ -24,3 +24,6 @@ public class BinaryXor{
       System.out.println(binaryXor((short)82,(short)255)); 
     }
 }
+//000001111
+//000001100
+//000000011
